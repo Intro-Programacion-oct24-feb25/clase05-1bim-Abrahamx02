@@ -30,8 +30,8 @@ public class Ejemplo4 {
         double promedio;
         System.out.println("Ingrese el promedio por favor");
         promedio = entrada.nextDouble();
-        System.out.println("Ingrese el nombre por favor");
         entrada.nextLine();
+        System.out.println("Ingrese el nombre por favor");
         miNombre = entrada.nextLine();
         
         if (promedio >= 7.5) {
